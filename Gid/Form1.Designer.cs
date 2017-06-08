@@ -30,6 +30,7 @@
         {
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
             // 
             // dateTimePicker1
@@ -47,11 +48,19 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 1;
             // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(48, 104);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(352, 295);
+            this.treeView1.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(833, 511);
+            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "Form1";
@@ -64,6 +73,7 @@
 
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
 
